@@ -1,6 +1,9 @@
 Rating :  https://daisyui.com/components/rating/
+
 Radial progress :  https://daisyui.com/components/radial-progress/
+
 Footer :  https://daisyui.com/components/footer/
+
 Carousel : https://tw-elements.com/docs/standard/components/carousel/     6 No
  &         : https://flowbite.com/docs/components/carousel/     1No
 
