@@ -25,6 +25,29 @@
         body{
             font-family: "Manrope", sans-serif;
         }
+        
+        /* register bg css */
+        #register-area-top-left{
+            background-image: url("Images/2.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #register-area-top-right{
+            background-image: url("Images/3.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #register-area-bottom{
+            background-image: url("Images/4.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        
+        
     </style>
 </head>
 <!-- display body -->
@@ -183,8 +206,32 @@
     </article>
     
     <!-- Register-3 area -->
-    <section>
-        
+    <section class="w-[95%] md:w-4/5 my-20 mx-auto">
+        <!-- top 2 img -->
+        <div class="xl:flex w-full gap-5">
+            <div class="w-full xl:w-1/2 rounded-2xl pt-16 pl-10 mb-5 brightness-75" id="register-area-top-left">
+                <h5 class="text-2xl font-bold">Junior Program</h5>
+                <p class="text-base text-gray-700 w-4/5 mt-5 bg-[#FFFFFF40] p-5 rounded-2xl">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <button type="button" class="text-white bg-red-600 hover:bg-red-400 font-medium rounded-lg text-base px-7 py-2 mt-6 mb-10">Register Now!</button>
+            </div>
+            <div class="w-full xl:w-1/2 rounded-2xl pt-16 pl-10 mb-5 brightness-75" id="register-area-top-right">
+                <h5 class="text-2xl font-bold">Teenager Program</h5>
+                <p class="text-base text-gray-700 w-4/5 mt-5 bg-[#FFFFFF40] p-5 rounded-2xl">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <button type="button" class="text-white bg-red-600 hover:bg-red-400 font-medium rounded-lg text-base px-7 py-2 mt-6 mb-10">Register Now!</button>
+            </div>
+        </div>
+        <!-- bottom img -->
+        <div class="w-full rounded-2xl pt-16 lg:pt-96 pl-10 mb-5 brightness-75" id="register-area-bottom">
+            <h5 class="text-2xl font-bold">Professional Program</h5>
+            <p class="text-base text-gray-700 w-4/5 lg:w-2/5 mt-5 bg-[#FFFFFF40] p-5 rounded-2xl">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+            </p>
+            <button type="button" class="text-white bg-red-600 hover:bg-red-400 font-medium rounded-lg text-base px-7 py-2 mt-6 mb-10">Register Now!</button>
+        </div>
     </section>
     
     <!-- 3th article info -->
@@ -192,13 +239,144 @@
         <h1 class="text-2xl md:text-4xl font-bold mb-5">Our New Products</h1>
         <p class="text-sm md:text-base">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
     </article>
+    
+    <!-- card area -->
+    <section class="lg:grid lg:w-[1000px]  mx-auto my-36 grid-cols-2">
 
+        <!-- 1st card -->
+        <div class="w-[90%] md:w-[475px] mx-auto md:flex py-5 px-7 mb-5 rounded-2xl border">
+            <div class="flex justify-center md:justify-start w-full md:w-2/5">
+                <img src="Images/5.png" alt="" class="">
+            </div>
+            <div class="w-full md:w-3/5 pl-5 pt-3">
+                <div class="flex font-bold">
+                    <img src="Images/Frame.png" alt="">
+                    <p class="ml-2 mr-4">5.0</p>
+                    <img src="Images/Frame (1).png" alt="">
+                    <p class="ml-2 mr-4">20</p>
+                    <img src="Images/Frame (2).png" alt="">
+                    <p class="ml-2 mr-4">200</p>
+                </div>
+                <h6 class="text-xl font-extrabold my-3">World Cup Flags Football</h6>
+                <p class="text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                <div class="flex mt-4">
+                    <div class="text-[#FF4240] md:text-xl mr-5" id="price">Price - $22.00</div>
+                    <img class="w-20" src="Images/Group 35.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- 2th card -->
+        <div class="w-[90%] md:w-[475px] mx-auto md:flex py-5 px-7 mb-5 rounded-2xl border">
+            <div class="flex justify-center md:justify-start w-full md:w-2/5">
+                <img src="Images/6.png" alt="" class="">
+            </div>
+            <div class="w-full md:w-3/5 pl-5 pt-3">
+                <div class="flex font-bold">
+                    <img src="Images/Frame.png" alt="">
+                    <p class="ml-2 mr-4">5.0</p>
+                    <img src="Images/Frame (1).png" alt="">
+                    <p class="ml-2 mr-4">20</p>
+                    <img src="Images/Frame (2).png" alt="">
+                    <p class="ml-2 mr-4">200</p>
+                </div>
+                <h6 class="text-xl font-extrabold my-3">World Cup Flags Football</h6>
+                <p class="text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                <div class="flex mt-4">
+                    <div class="text-[#FF4240] md:text-xl mr-5" id="price">Price - $22.00</div>
+                    <img class="w-20" src="Images/Group 35.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- 3th card -->
+        <div class="w-[90%] md:w-[475px] mx-auto md:flex py-5 px-7 mb-5 rounded-2xl border">
+            <div class="flex justify-center md:justify-start w-full md:w-2/5">
+                <img src="Images/7.png" alt="" class="">
+            </div>
+            <div class="w-full md:w-3/5 pl-5 pt-3">
+                <div class="flex font-bold">
+                    <img src="Images/Frame.png" alt="">
+                    <p class="ml-2 mr-4">5.0</p>
+                    <img src="Images/Frame (1).png" alt="">
+                    <p class="ml-2 mr-4">20</p>
+                    <img src="Images/Frame (2).png" alt="">
+                    <p class="ml-2 mr-4">200</p>
+                </div>
+                <h6 class="text-xl font-extrabold my-3">Cap For Hockeys</h6>
+                <p class="text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                <div class="flex mt-4">
+                    <div class="text-[#FF4240] md:text-xl mr-5" id="price">Price - $22.00</div>
+                    <img class="w-20" src="Images/Group 35.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- 4th card -->
+        <div class="w-[90%] md:w-[475px] mx-auto md:flex py-5 px-7 mb-5 rounded-2xl border">
+            <div class="flex justify-center md:justify-start w-full md:w-2/5">
+                <img src="Images/8.png" alt="" class="">
+            </div>
+            <div class="w-full md:w-3/5 pl-5 pt-3">
+                <div class="flex font-bold">
+                    <img src="Images/Frame.png" alt="">
+                    <p class="ml-2 mr-4">5.0</p>
+                    <img src="Images/Frame (1).png" alt="">
+                    <p class="ml-2 mr-4">20</p>
+                    <img src="Images/Frame (2).png" alt="">
+                    <p class="ml-2 mr-4">200</p>
+                </div>
+                <h6 class="text-xl font-extrabold my-3">World Cup Flags Football</h6>
+                <p class="text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                <div class="flex mt-4">
+                    <div class="text-[#FF4240] md:text-xl mr-5" id="price">Price - $22.00</div>
+                    <img class="w-20" src="Images/Group 35.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- 5th card -->
+        <div class="w-[90%] md:w-[475px] mx-auto md:flex py-5 px-7 mb-5 rounded-2xl border">
+            <div class="flex justify-center md:justify-start w-full md:w-2/5">
+                <img src="Images/9.png" alt="" class="">
+            </div>
+            <div class="w-full md:w-3/5 pl-5 pt-3">
+                <div class="flex font-bold">
+                    <img src="Images/Frame.png" alt="">
+                    <p class="ml-2 mr-4">5.0</p>
+                    <img src="Images/Frame (1).png" alt="">
+                    <p class="ml-2 mr-4">20</p>
+                    <img src="Images/Frame (2).png" alt="">
+                    <p class="ml-2 mr-4">200</p>
+                </div>
+                <h6 class="text-xl font-extrabold my-3">World Cup Flags Football</h6>
+                <p class="text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                <div class="flex mt-4">
+                    <div class="text-[#FF4240] md:text-xl mr-5" id="price">Price - $22.00</div>
+                    <img class="w-20" src="Images/Group 35.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- 6th card -->
+        <div class="w-[90%] md:w-[475px] mx-auto md:flex py-5 px-7 mb-5 rounded-2xl border">
+            <div class="flex justify-center md:justify-start w-full md:w-2/5">
+                <img src="Images/10.png" alt="" class="">
+            </div>
+            <div class="w-full md:w-3/5 pl-5 pt-3">
+                <div class="flex font-bold">
+                    <img src="Images/Frame.png" alt="">
+                    <p class="ml-2 mr-4">5.0</p>
+                    <img src="Images/Frame (1).png" alt="">
+                    <p class="ml-2 mr-4">20</p>
+                    <img src="Images/Frame (2).png" alt="">
+                    <p class="ml-2 mr-4">200</p>
+                </div>
+                <h6 class="text-xl font-extrabold my-3">World Cup Flags Football</h6>
+                <p class="text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                <div class="flex mt-4">
+                    <div class="text-[#FF4240] md:text-xl mr-5" id="price">Price - $22.00</div>
+                    <img class="w-20" src="Images/Group 35.png" alt="">
+                </div>
+            </div>
+        </div>
 
-
-
-
-
-
+    </section>
 
 
 
